@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/0f4fdf0f5b.js"
+      crossorigin="anonymous"
+    ></script>
+   
+    
+    <link rel="stylesheet" href="src/style.css" />
+     <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+  </head>
+  <body>
+   <div class="weatherapp">
+
+   <form id="search-bar">
+     <input
+     type="text"
+     placeholder="Search for a city"
+     autocomplete="off"
+     autofocus="on"
+     id="search-bar-input"
+     />
+
+     <input class="sumbitButton" type="submit" value="Search"/>
+   </form>
+  
+<h1>Weather Forecast</h1>
+<div class="grid">
+     <p class="city">Richmond</p>
+           <p class="date"> <span class="dayDate">Saturday</span>, <span class="month">June</span> <span id="date">11</span> <span class="year">2022 </span> <span class="time">  2:33pm</span></p>
+
+        <h3><span class="todayTemp">30</span> <a href="#" class="celsius">°C </a><span class="line"> |</span><a href="#" class="fahrenheit">°F</a></h3>
+        </div>
+ </br>
+<div class="row weekdays">
+ <div class="card-group">
+   <div class="card mx-1" style="width: 13rem">
+         <div class="card-body">
+     <i class="fa-solid fa-cloud-sun-rain"></i>
+     <h2 class="card-title">Sunday</h2>
+  
+     <p class="card-text">High: 55°F</p>
+     <p class="card-text">Low: 37°F</p>
+     <p class="card-text forecast">Sunny</p>
+     </div>
+   </div>
+
+   <div class="card mx-1" style="width: 13rem">
+      <div class="card-body">
+     <i class="fa-solid fa-sun"></i>
+    
+     <h2 class="card-title">Monday</h2>
+
+     <p class="card-text">High: 58°F</p>
+     <p class="card-text">Low: 40°F</p>
+     <p class="card-text forecast">Sunny</p>
+     </div>
+   </div>
+
+   <div class="card mx-1" style="width: 13rem">
+      <div class="card-body">
+    <i class="fa-solid fa-cloud-sun"></i>
+    
+     <h2 class="card-title">Tuesday</h2>
+
+     <p class="card-text">High: 55°F</p>
+     <p class="card-text">Low: 38°F</p>
+     <p class="card-text forecast">Cloudy</p>
+     </div>
+   </div>
+
+   <div class="card mx-1" style="width: 13rem">
+      <div class="card-body">
+     <i class="fa-solid fa-cloud-rain"></i>
+    
+     <h2 class="card-title">Wednesday</h2>
+
+     <p class="card-text">High: 56°F</p>
+     <p class="card-text">Low: 38°F</p>
+     <p class="card-text forecast">Slight Chance of Rain</p>
+     </div>
+   </div>
+
+   <div class="card mx-1" style="width: 13rem">
+       <div class="card-body">
+     <i class="fa-solid fa-snowflake"></i>
+
+     <h2 class="card-title">Thursday</h2>
+
+     <p class="card-text">High: 21°F</p>
+     <p class="card-text">Low: 12°F</p>
+     <p class="card-text forecast">Chance of Snow</p>
+   </div>
+   </div>
+   </div>
+  </div>
+  </div>
+<script src="src/script.js"></script>
+ <footer>Coded by Sam Poe</footer>
+</body>

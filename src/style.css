@@ -1,0 +1,57 @@
+body {
+  background-color: rgb(12, 7, 1);
+}
+h1 {
+  font-size: 35px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.weatherapp {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(96, 38, 82);
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 45px;
+  border-radius: 15px;
+  color: black;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+.card {
+  background-color: rgb(174, 131, 173);
+}
+.card-title {
+  text-align: center;
+  color: black;
+}
+.card-text {
+  text-align: center;
+}
+.card-footer {
+  text-align: center;
+  font-size: 14px;
+}
+.form {
+  padding-bottom: 30px;
+}
+footer {
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+}
